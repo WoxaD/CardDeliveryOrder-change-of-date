@@ -33,7 +33,11 @@ public class DataGenerator {
         private Registration() {
         }
         public static UserInfo generateUser(String locale) {
-            return new UserInfo(generateCity("ru"), generateName("ru"), generatePhone("ru"));
+            return new UserInfo(
+                    generateCity("ru"),
+                    generateName("ru"),
+                    generatePhone("ru")
+            );
         }
     }
 
